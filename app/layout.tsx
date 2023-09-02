@@ -1,6 +1,8 @@
-import "./globals.css";
+"use client";
+
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
+import GlobalStyles from "@/styles/globalStyles";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
@@ -16,6 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <GlobalStyles />
       <body className={outfit.className}>{children}</body>
     </html>
   );
