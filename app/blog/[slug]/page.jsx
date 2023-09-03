@@ -1,8 +1,15 @@
+"use client";
+
+import Navigation from "@/components/Navigation";
+import GridContainer from "@/components/GridContainer";
+
 const BlogDetails = ({ params }) => {
   return (
-    <main className="blog-details">
-      <h1>Blog details: {params.slug}</h1>
-    </main>
+    <GridContainer>
+      <Navigation />
+
+      {/* <Heading as={"h1"}>I am whitegod</Heading> */}
+    </GridContainer>
   );
 };
 

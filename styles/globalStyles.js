@@ -12,6 +12,7 @@ const GlobalStyles = createGlobalStyle`
   --clr-gray: #0E0E0E;
   --clr-gray-dark: #121212;
   --clr-gray-light: #454545;
+  --clr-gray-text: #BCBCBC;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,6 +35,7 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: inherit;
+    transition: all 300ms;
   }
 
   html {

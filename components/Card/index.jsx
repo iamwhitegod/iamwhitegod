@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { devices } from "@/styles/breakpoints";
 
 const card = css`
   display: inline-flex;
@@ -29,16 +30,28 @@ const Card = styled.div`
   gap: ${(props) => (props.gap ? props.gap : "2.4rem")};
   cursor: pointer;
 
+  @media only screen and (${devices.md}) {
+    gap: 0.8rem;
+  }
+
   .card {
     &__content {
       ${card}
       gap: 1.2rem;
       align-self: stretch;
+
+      @media only screen and (${devices.md}) {
+        gap: 0.6rem;
+      }
     }
 
     &__details {
       ${card}
       gap: 0.4rem;
+
+      @media only screen and (${devices.md}) {
+        gap: 0;
+      }
     }
 
     &__title {
@@ -50,6 +63,16 @@ const Card = styled.div`
       display: flex;
       align-items: flex-start;
       gap: 1.6rem;
+
+      @media only screen and (${devices.md}) {
+        gap: 0.8rem;
+      }
+
+      span {
+        @media only screen and (${devices.md}) {
+          font-size: 1.4rem !important;
+        }
+      }
     }
 
     &__summary {

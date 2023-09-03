@@ -1,8 +1,15 @@
+"use client";
+
+import GridContainer from "@/components/Grid";
+import Navigation from "@/components/Navigation";
+
 const Portfolio = () => {
   return (
-    <div className="portfolio">
-      <h1>Portfolio</h1>
-    </div>
+    <GridContainer>
+      <Navigation />
+
+      {/* <Heading as={"h1"}>I am whitegod</Heading> */}
+    </GridContainer>
   );
 };
 

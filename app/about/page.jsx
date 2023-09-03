@@ -1,8 +1,15 @@
+"use client";
+
+import GridContainer from "@/components/Grid";
+import Navigation from "@/components/Navigation";
+
 const About = () => {
   return (
-    <div className="about">
-      <h1>About</h1>
-    </div>
+    <GridContainer>
+      <Navigation />
+
+      {/* <Heading as={"h1"}>I am whitegod</Heading> */}
+    </GridContainer>
   );
 };
 

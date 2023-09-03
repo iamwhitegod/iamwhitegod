@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import css from "styled-jsx/css";
+import styled, { css } from "styled-components";
+import { devices } from "@/styles/breakpoints";
 
 const Heading = styled.h1`
   ${(props) =>
@@ -9,6 +9,24 @@ const Heading = styled.h1`
       font-weight: 700;
       line-height: 12.8rem; /* 106.667% */
       letter-spacing: -1.2px;
+
+      @media only screen and ${devices.lg} {
+        font-size: 11rem;
+        line-height: normal;
+      }
+
+      @media only screen and ${devices.md} {
+        font-size: 9.6rem;
+      }
+
+      @media only screen and ${devices.sm} {
+        font-size: 6rem;
+        line-height: 7.2rem;
+      }
+
+      span {
+        display: block;
+      }
     `}
 
   ${(props) =>
@@ -18,6 +36,11 @@ const Heading = styled.h1`
       font-weight: 500;
       line-height: normal;
       letter-spacing: -0.48px;
+
+      @media only screen and ${devices.md} {
+        font-size: 4rem;
+        line-height: 4.8rem;
+      }
     `}
 
     ${(props) =>
@@ -27,9 +50,21 @@ const Heading = styled.h1`
       font-style: normal;
       font-weight: 600;
       line-height: 3.2rem /* 133.333% */;
+
+      @media only screen and ${devices.sm} {
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+      }
     `}
 
   color: var(--clr-white);
+
+  &.heading--main {
+    font-size: 12rem;
+    font-weight: 700;
+    line-height: 12.8rem; /* 106.667% */
+    letter-spacing: -1.2px;
+  }
 `;
 
 export default Heading;
