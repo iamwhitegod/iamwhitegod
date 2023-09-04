@@ -32,9 +32,9 @@ const BackToTop = () => {
           <path
             d="M5.00006 14.9999L12.0001 7.99988L19.0001 14.9999"
             stroke="#BCBCBC"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </Wrapper>

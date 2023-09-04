@@ -87,16 +87,16 @@ const Navigation = () => {
         </Link>
 
         <NavList>
-          {navLinks.map((navLink) => (
-            <NavItem>
+          {navLinks.map((navLink, index) => (
+            <NavItem key={index}>
               <Link href={navLink.href}>{navLink.name}</Link>
             </NavItem>
           ))}
         </NavList>
 
         <NavIcons>
-          {icons.map((icon) => (
-            <Link href={{ pathname: icon.href }} target="_blank">
+          {icons.map((icon, index) => (
+            <Link key={index} href={{ pathname: icon.href }} target="_blank">
               <svg className="icon">
                 <use xlinkHref={`/sprite.svg#bx_bxl-${icon.name}`}></use>
               </svg>

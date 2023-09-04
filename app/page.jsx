@@ -26,7 +26,7 @@ export default function Home() {
         <Heading as={"h2"} className="heading--main">
           About Me
         </Heading>
-        <Text size="2.2rem" width="70.4rem" lineHeight="2.8rem">
+        <Text size="2.2rem" width="70.4rem" lineheight="2.8rem">
           I believe in diverse skill sets and people as they make products and
           communities unique.
         </Text>
@@ -37,7 +37,7 @@ export default function Home() {
         <Heading as={"h2"} className="heading--main">
           Portfolio
         </Heading>
-        <Text size="2.2rem" width="61.8rem" lineHeight="2.8rem">
+        <Text size="2.2rem" width="61.8rem" lineheight="2.8rem">
           Discover a curated collection of my work and achievements, showcasing
           my passion and dedication in various projects.
         </Text>
