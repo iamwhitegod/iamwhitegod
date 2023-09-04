@@ -6,7 +6,7 @@ import GlobalStyles from "@/styles/globalStyles";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
+const metadata: Metadata = {
   title: "Whitegod Kingsley - iamwhitegod",
   description: "Whitegod Kingsley is a frontend engineer.",
 };
