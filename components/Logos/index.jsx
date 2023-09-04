@@ -1,3 +1,4 @@
+import { devices } from "@/styles/breakpoints";
 import styled from "styled-components";
 
 const logosData = [
@@ -26,22 +27,29 @@ const logosData = [
 const LogosWrapper = styled.div`
   grid-column: 3 / 9;
   max-width: 114rem;
-  padding: 4.2rem 0.4rem;
+  padding: 4.2rem 0.8rem;
   margin: 2.5rem 0 10rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 4rem;
 
   border-radius: 0.4rem;
   border: 1px solid var(--clr-gray-light);
   background: var(--clr-gray-dark);
+
+  @media only screen and (${devices.md}) {
+    grid-column: 2 / -2;
+  }
 `;
 
 const Image = styled.img`
   max-width: 13.4rem;
+  width: 8.8rem;
   height: 2.4rem;
+  object-fit: contain;
   flex-shrink: 0;
 `;
 

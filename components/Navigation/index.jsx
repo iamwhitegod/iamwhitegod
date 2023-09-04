@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { devices } from "@/styles/breakpoints";
 import Link from "next/link";
 import Logo from "../Logo";
 
@@ -30,6 +31,10 @@ const NavWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media only screen and (${devices.md}) {
+    display: none;
+  }
 `;
 
 const NavBar = styled.nav`

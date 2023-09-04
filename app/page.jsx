@@ -46,7 +46,9 @@ export default function Home() {
       <Logos />
 
       <Footer>
-        <Text>2023 © Whitegod Kingsley. All rights reserved.</Text>
+        <Text className="copyright ">
+          2023 © Whitegod Kingsley. All rights reserved.
+        </Text>
         <BackToTop />
       </Footer>
     </GridContainer>

@@ -64,6 +64,20 @@ const Heading = styled.h1`
     font-weight: 700;
     line-height: 12.8rem; /* 106.667% */
     letter-spacing: -1.2px;
+
+    @media only screen and (${devices.lg}) {
+      font-size: 11rem;
+      line-height: normal;
+    }
+
+    @media only screen and (${devices.md}) {
+      font-size: 9.6rem;
+    }
+
+    @media only screen and (${devices.sm}) {
+      font-size: 6rem;
+      line-height: 7.2rem;
+    }
   }
 `;
 

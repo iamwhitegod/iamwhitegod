@@ -1,12 +1,19 @@
 import styled from "styled-components";
 import Text from "../Text";
 import Link from "next/link";
+import { devices } from "@/styles/breakpoints";
 
 const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1.6rem;
+
+  p {
+    @media only screen and (${devices.md}) {
+      display: none;
+    }
+  }
 `;
 
 const BackToTop = () => {

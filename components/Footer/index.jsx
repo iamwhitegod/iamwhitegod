@@ -1,3 +1,4 @@
+import { devices } from "@/styles/breakpoints";
 import styled from "styled-components";
 
 const Footer = styled.footer`
@@ -7,6 +8,16 @@ const Footer = styled.footer`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media only screen and (${devices.md}) {
+    grid-column: 2 / -2;
+  }
+
+  .copyright {
+    @media only screen and (${devices.md}) {
+      width: 80%;
+    }
+  }
 `;
 
 export default Footer;

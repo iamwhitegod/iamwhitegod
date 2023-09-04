@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { devices } from "@/styles/breakpoints";
 
 const Text = styled.p`
   color: ${(props) => (props.color ? props.color : "var(--clr-gray-text)")};
@@ -9,6 +10,10 @@ const Text = styled.p`
   line-height: ${(props) =>
     props.lineHeight ? props.lineHeight : "2.4rem"}; /* 150% */
   ${(props) => props.width && `max-width: ${props.width}`}
+
+  @media only screen and (${devices.md}) {
+    font-size: 1.6rem;
+  }
 `;
 
 export default Text;
