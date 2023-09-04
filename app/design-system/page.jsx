@@ -6,13 +6,12 @@ import Logo from "@/components/Logo";
 import Heading from "@/components/Heading";
 import Text from "@/components/Text";
 import Button from "@/components/Button";
-import Navigation from "@/components/Navigation";
+// import Navigation from "@/components/Navigation";
 import Header from "@/components/Header";
-import Section from "@/components/Section";
 import BlogCard from "@/components/Card/BlogCard";
 import ProjectCard from "@/components/Card/ProjectCard";
 import InputField from "@/components/InputField";
-import Blockquote from "@/components/Blockquote";
+import Blockquote from "@/components/Blockqoute";
 
 const DesignSystem = () => {
   return (
