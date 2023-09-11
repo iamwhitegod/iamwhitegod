@@ -15,7 +15,7 @@ const Section = styled.section`
     grid-column: 2 / -2;
 
     min-height: 50dvh;
-    padding: 0;
+    padding: 5.9vh 0 7vh;
   }
 `;
 

@@ -38,6 +38,7 @@ const NavWrapper = styled.div`
     align-items: flex-start;
     justify-content: space-between;
     width: 100%;
+    height: fit-content;
   }
 `;
 
