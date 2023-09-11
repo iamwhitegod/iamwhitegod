@@ -43,10 +43,7 @@ const NavWrapper = styled.div`
 
 const NavBar = styled.nav`
   ${flex}
-
   position: fixed;
-  /* top: 0; */
-  /* left: 2.4rem; */
 
   @media only screen and (${devices.md}) {
     position: fixed;
@@ -72,7 +69,6 @@ const NavBar = styled.nav`
     @media only screen and (${devices.md}) {
       display: block;
       grid-row: 1 / 2;
-      /* grid-column: -2 / -1; */
       justify-self: end;
 
       width: 2.4rem;
@@ -101,8 +97,6 @@ const NavInner = styled.div`
     top: -1px;
     width: 100%;
     margin-left: -1px;
-    /* left: 50%;
-    transform: translateX(-50%); */
     background-color: var(--clr-gray-dark);
     padding: 4.8rem;
   }
