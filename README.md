@@ -1,6 +1,6 @@
 # Whitegod Kingsley
 
-**Software Developer** &mdash; I build prodcuts, developer tools, and AI-powered products that solve real problems for real companies/users.
+**Software Developer** &mdash; I build products, developer tools, and AI-powered products that solve real problems for real companies/users.
 
 Based in Port Harcourt, Nigeria. Working at [Apex Petroleum](https://apexpetroleum.com) and [Rebucom](https://rebucom.com)
 
