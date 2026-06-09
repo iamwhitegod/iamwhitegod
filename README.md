@@ -1,8 +1,8 @@
 # Whitegod Kingsley
 
-**Software Developer** &mdash; I build full-stack web applications, developer tools, and AI-powered products for real businesses.
+**Software Developer** &mdash; I build prodcuts, developer tools, and AI-powered products that solve real problems for real companies/users.
 
-Based in Port Harcourt, Nigeria. Currently at [Yoggasoft](https://yoggasoft.com).
+Based in Port Harcourt, Nigeria. Working at [Apex Petroleum](https://apexpetroleum.com) and [Rebucom](https://rebucom.com)
 
 ---
 
