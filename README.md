@@ -1,53 +1,50 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Whitegod Kingsley
 
-## Getting Started
+**Software Developer** &mdash; I build full-stack web applications, developer tools, and AI-powered products for real businesses.
 
-First, run the development server:
+Based in Port Harcourt, Nigeria. Currently at [Yoggasoft](https://yoggasoft.com).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| | |
+|---|---|
+| **Languages** | TypeScript, JavaScript, Python, HTML, CSS |
+| **Frontend** | React, Next.js, Vite, Tailwind CSS, Radix UI, Redux Toolkit, Material UI |
+| **Backend** | Node.js, Express, FastAPI, Flask |
+| **Databases** | PostgreSQL, MySQL, Redis, Supabase, Prisma, Sequelize |
+| **Real-time** | Socket.IO, BullMQ, RabbitMQ |
+| **AI** | OpenAI API, Claude API, Whisper, vector search (pgvector) |
+| **Testing** | Playwright, Pytest, Vitest, Supertest |
+| **Infra** | Docker, Vercel, Railway, PM2, Prometheus, Sentry |
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+### What I've Built
 
-To learn more about Next.js, take a look at the following resources:
+**Rebucom** &mdash; Multi-tenant logistics platform with four frontends (admin dashboard, merchant portal, customer app, driver PWA) and a Node.js/Express backend. Real-time tracking via Socket.IO, background jobs with BullMQ/Redis, payments with Paystack, full E2E test coverage with Playwright.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**[Arena](https://github.com/iamwhitegod/arena)** &mdash; Open-source CLI tool that turns long-form video into short-form clips using AI. TypeScript CLI + Python engine, powered by Whisper, FFmpeg, and OpenCV. Published on npm as `@whitegodkingsley/arena-cli`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Apex Price Pulse** &mdash; Petroleum fuel price management system with AI-powered document parsing (Claude API), ETL pipelines for supplier data extraction, and reporting. Flask + PostgreSQL, deployed on Railway.
 
-## Deploy on Vercel
+**VitalSwap** &mdash; Fintech platform with checkout flow, analytics dashboard, business and personal portals, and marketing site. React + Tanstack Query + Radix UI.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**SageAI** &mdash; AI-powered educational backend that processes PDFs into scenario-based quiz questions using semantic search. FastAPI + PostgreSQL/pgvector + Celery + OpenAI.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-=======
-### Hi there 👋
+---
 
-<!--
-**iamwhitegod/iamwhitegod** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### GitHub Stats
 
-Here are some ideas to get you started:
+<p>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=iamwhitegod&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamwhitegod&layout=compact&theme=default&hide_border=true" alt="Top languages" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
->>>>>>> 2fbd6aa8cddc6990c12c39bf8157d248210a52f8
+---
+
+### Connect
+
+[![Website](https://img.shields.io/badge/whitegodkingsley.com-000?style=flat&logo=safari&logoColor=white)](https://whitegodkingsley.com)
+[![Twitter](https://img.shields.io/badge/@iamwhitegod-000?style=flat&logo=x&logoColor=white)](https://x.com/iamwhitegod)
